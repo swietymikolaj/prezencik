@@ -186,10 +186,20 @@ html {
     height: 142px;
     text-align: center;
     background-color: #B3000C;
+    text-shadow:
+	.9px .9px 0 #B3000C,
+	-.9px .9px 0 #B3000C,
+	-.9px -.9px 0 #B3000C,
+	.9px -.9px 0 #B3000C;
 }
 
 .tile11:hover .overlay 
 {
+    text-shadow:
+    .0px .0px 0 #dddddd,
+	-.0px .0px 0 #dddddd,
+	-.0px -.0px 0 #dddddd,
+	.0px -.0px 0 #dddddd;
     background-color: #014C1C;
     bottom: 0;
     height: 100%;
@@ -297,6 +307,18 @@ a.tilelink
     color: white;
     text-decoration: none;
 }
+
+a.tilelink2
+{
+    font-size: 15px;
+    color: white;
+}
+
+a.tilelink1 {
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    text-decoration: none; }
 
 .overlay {
     position: absolute;

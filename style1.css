@@ -5,6 +5,12 @@ a.tilelink {
     color: white;
     text-decoration: none; }
 
+a.tilelink1 {
+    font-size: 95px;
+    margin-left: auto;
+    text-align: center;
+    color: white; }
+
 
   .window {
     width: 340px;
@@ -254,6 +260,7 @@ a.tilelink {
     font-style: normal;
     src: local("Mountains of Christmas"), local("MountainsofChristmas-Regular"), url(https://fonts.gstatic.com/s/mountainsofchristmas/v8/dVGBFPwd6G44IWDbQtPewylJhLDHyIrT3I5b5eGTHmw.woff2) format("woff2"); }
   .message {
+    text-align: center;
     position: absolute;
     left: 50%;
     top: 50%;
